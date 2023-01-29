@@ -1,11 +1,12 @@
 # Transaction-list-api
 The Transaction list API documentation on Github :
-#Api url
+# Api url
 https://onlinepayment.biz/api/V1/user/list_trachonesh_user
-#parameter
+# parameter
 email => Required
-#Examples
-<?php
+# Examples
+<code>
+
 $merchant_id="Your_merchant_id";
 $url = "https://onlinepayment.biz/api/V1/user/list_trachonesh_user";
 $method = "POST";
@@ -22,4 +23,5 @@ $execResult = curl_exec($ch);
 curl_close($ch);
 
 echo $execResult;
-?>
+
+</code>
