@@ -4,10 +4,11 @@ The Transaction list API documentation on Github :
 https://onlinepayment.biz/api/V1/user/list_trachonesh_user
 # parameter
 email => Required
+<br>
+*noice : <b>The email you use to log into your account</b>
 # Examples
 <code>
 
-$merchant_id="Your_merchant_id";
 $url = "https://onlinepayment.biz/api/V1/user/list_trachonesh_user";
 $method = "POST";
 $content = array(
