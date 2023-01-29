@@ -6,6 +6,7 @@ https://onlinepayment.biz/api/V1/user/list_trachonesh_user
 email => Required
 <br>
 *noice : <b>The email you use to log into your account</b>
+
 # Examples
 <code>
 
@@ -26,3 +27,19 @@ curl_close($ch);
 echo $execResult;
 
 </code>
+
+# Errors
+<table>
+  <tr>
+    <th>Status</th>
+    <th>message</th>
+  </tr>
+  <tr>
+    <td>200</td>
+    <td>Show Json Data</td>
+  </tr>
+   <tr>
+    <td>404</td>
+    <td>Enter email</td>
+  </tr>
+</table>
